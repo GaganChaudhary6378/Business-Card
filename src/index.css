@@ -1,0 +1,87 @@
+body{
+    box-sizing: border-box;
+    margin-top: 30px;
+    margin-left: 37%;
+    margin-right: 38%;
+    background-color: #191a20;
+}
+#root{
+    border-radius: 7px;
+    background-color: #21222A;
+    height:750px;
+}
+.img-container{
+    border-radius: 7px;
+    height: 300px;
+    width: 380px;
+    border: 2px solid black
+}
+.img-el{
+    border-radius: 7px;
+    object-fit:fill;
+    height: 100%;
+    width: 100%;
+}
+.main-head{
+    text-align: center;
+    line-height:0.9rem;
+}
+.head-title{
+    color: white;
+}
+.head-text{
+    color: rgb(189, 189, 93);
+}
+.img2-el{
+    width: 10px;
+    height: 10px;
+}
+.button-section{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.link-el{
+    height: 50px;
+    width: 120px;
+    background-color: rgb(28, 81, 105);
+    color: white;
+    font-weight: bold;
+    border-radius: 7px;
+}
+.email-el{
+    height: 50px;
+    width: 120px;
+    font-weight: bold;
+    border-radius: 7px;
+    color: #45464b;
+}
+.about-el{
+    margin-top: 35px;
+    color: white;
+    text-align: center;
+}
+.about-text{
+    max-width:370px;
+    margin-left: 30px;
+    margin-right: 27px;
+    line-height: 1.5rem;
+}
+.foot-el{
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    background-color: rgb(156, 156, 156);
+    margin-top: 70px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.twitter-el,.github-el{
+    padding-top: 8px;
+    width: 50px;
+    height: 40px;
+    padding-bottom: 10px;
+}
+.twitter-el,.github-el:hover{
+    cursor: pointer;
+}
