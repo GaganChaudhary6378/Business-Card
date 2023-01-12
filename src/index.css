@@ -4,6 +4,7 @@ body{
     margin-left: 37%;
     margin-right: 38%;
     background-color: #191a20;
+    font-family: Lobster;
 }
 #root{
     border-radius: 7px;
@@ -50,12 +51,19 @@ body{
     font-weight: bold;
     border-radius: 7px;
 }
+.link-el:hover{
+    color: yellow;
+    cursor: pointer;
+}
 .email-el{
     height: 50px;
     width: 120px;
     font-weight: bold;
     border-radius: 7px;
     color: #45464b;
+}
+.email-el:hover{
+    cursor: pointer;
 }
 .about-el{
     margin-top: 35px;
@@ -66,7 +74,7 @@ body{
     max-width:370px;
     margin-left: 30px;
     margin-right: 27px;
-    line-height: 1.5rem;
+    line-height: 1.8rem;
 }
 .foot-el{
     border-bottom-left-radius: 7px;
